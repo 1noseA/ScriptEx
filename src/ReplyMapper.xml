@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.exex.dao.ReplyDao">
+
+	<resultMap type="com.exex.dao.Reply" id="replyResult">
+		<result column="rep_id" property="repId"/>
+		<result column="rep_date" property="repDate"/>
+		<result column="rep_name" property="repName"/>
+		<result column="rep_content" property="repContent"/>
+		<result column="com_id" property="comId"/>
+	</resultMap>
+
+</mapper>

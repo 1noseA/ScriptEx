@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* 画像左右の隙間をなくす（リセットCSS） */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #C0A2C7;
+	font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+header {
+	background-color: #522f60;
+}
+
+footer h3 {
+	background-color: #522f60;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 5px;
+	height: 50px;
+	margin-top: 100px;
+	padding: 30px;
+}
+
+h1 {
+	color: #fff;
+	letter-spacing: 5px;
+	padding: 30px;
+}
+.show img {
+	width: 100%;
+}
+
+.kind {
+	width: 720px;
+	margin: auto;
+}
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 0 20px 0;
+}
+
+img {
+	display: block;
+	height: auto;
+	width: 30%;
+}
+
+.box {
+	width: 70%;
+	background-color: #fff;
+}
+
+h2 {
+	color: #6B1349;
+	text-align: center;
+	letter-spacing: 5px;
+	padding: 50px 0 20px 0;
+}
+
+h3 {
+	color: #fff;
+	background-color: #6B1349;
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+}
+
+.wrap p {
+	padding: 10px;
+}
+
+.comment-lists {
+	width: 720px;
+	margin: auto;
+	overflow-wrap: break-word;
+}
+
+.com-list {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.reply-lists {
+	padding: 20px;
+}
+
+.rep-list {
+	padding: 5px 0;
+}
+
+.reply-form {
+	padding: 0 20px;
+}
+
+.submit-button {
+	letter-spacing: 3px;
+	color: #fff;
+	background-color: #6B1349;
+	border: 1px solid #6B1349;
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 5px 20px;
+	margin-top: 10px;
+}
+
+h4 {
+	font-size: 16px;
+	color: #6B1349;
+	text-align: center;
+	padding-top: 10px;
+}
+
+h5 {
+	font-size: 16px;
+	color: #6B1349;
+	text-align: center;
+	padding: 30px 0 10px 0;
+}
+
+.comment-form {
+	width: 30%;
+	margin: auto;
+}
+
+input.name {
+	width: 100%;
+}
+
+textarea.content {
+	width: 100%;
+}
